@@ -1,0 +1,6 @@
+.env
+venv
+cert.crt
+cert.key
+db.sqlite3
+.idea
