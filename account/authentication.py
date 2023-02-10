@@ -9,7 +9,7 @@ class EmailAuthBackend:
                 return user
             return None
         except (User.DoesNotExist, User.MultipleObjectsReturned):
-            return user
+            return None
 
     def get_user(self, user_id):
         try:
